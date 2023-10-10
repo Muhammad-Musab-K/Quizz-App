@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Pixelify+Sans&family=Poppins:wght@200;400&family=Roboto:wght@300&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>QuiZz Application</h1>
+        </nav>
+    </header>
+    <main>
+        <div class="heading">
+            <h1 class="get">Get Start</h1><br><br>
+            <button id="btn_start" class="btn_one" onclick="start(event)">Click Here</button>
+        </div>
+        <div id="container_two" class="hide container">
+            <h3 id="title"></h3>
+            <div id="option_container">
+            </div>
+            <button id="next_btn" onclick="next()">Next</button>
+           
+        </div>
+        <div class="container_result"><h3>Get Result</h3><button id="result" onclick="result()">Check Result</button></div>
+        
+        
+    </main>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
